@@ -4,6 +4,7 @@ import time
 import numpy as np
 import torch
 from scipy.io.wavfile import write
+import soundfile as sf
 
 import commons
 import utils
@@ -55,15 +56,20 @@ def do_inference(generator, hparams, symbol_to_id, text, device):
     with torch.no_grad():
         x_tst = stn_tst.to(device).unsqueeze(0)
         x_tst_lengths = torch.LongTensor([stn_tst.size(0)]).to(device)
-        audio = generator.infer(x_tst, x_tst_lengths, noise_scale=.667, noise_scale_w=0.8, length_scale=1)[0][0,0].data.cpu().float().numpy()
+        noise_scale = 0.667
+        noise_scale_w = 0.8
+        audio = generator.infer(x_tst, x_tst_lengths, noise_scale, noise_scale_w, length_scale=1)[0][0,0].data.cpu().float().numpy()
     
     return audio
 
 # https://docs.scipy.org/doc/scipy/reference/generated/scipy.io.wavfile.write.html
-def save_to_wav(audio, sampling_rate, path):
+def save_to_wav_1(audio, sampling_rate, path):
     max = 32767
     audio_int16 = np.floor(((max + 1) * audio)).astype(np.int16)
     write(path, sampling_rate, audio_int16)
+
+def save_to_wav(data, sampling_rate, path):
+    sf.write(path, data, 22050, 'PCM_16')
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
