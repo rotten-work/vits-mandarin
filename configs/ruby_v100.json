@@ -58,6 +58,6 @@
     "pretrained_model_name": "ljs_windows",
     "auto_delete_old_checkpoints": true,
     "replace_old_checkpoints_mode": false,
-    "num_checkpoints_to_keep": 3
+    "num_checkpoints_to_keep": 4
   }
 }
