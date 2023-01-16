@@ -112,7 +112,9 @@ def run(rank, n_gpus, hps):
   net_g = DDP(net_g, device_ids=[rank])
   net_d = DDP(net_d, device_ids=[rank])
 
+  use_pretrained_weights = False
   try:
+    # Pretrained_model_name means the pretrained weights, bad naming
     utils.load_checkpoint(utils.latest_checkpoint_path(
       "pretrained_models", 
       f"G_{hps.checkpoints.pretrained_model_name}*.pth"
@@ -126,8 +128,10 @@ def run(rank, n_gpus, hps):
       net_d, 
       optim_d
     )
+    use_pretrained_weights = True
   except:
-    print("No pretrained models to load")
+    print("No pretrained weights to load")
+    use_pretrained_weights =False
 
   try:
     _, _, _, epoch_str = utils.load_checkpoint(utils.latest_checkpoint_path(hps.model_dir, "G_*.pth"), net_g, optim_g)
@@ -136,6 +140,12 @@ def run(rank, n_gpus, hps):
   except:
     epoch_str = 1
     global_step = 0
+
+  if use_pretrained_weights:
+    for g in optim_g.param_groups:
+      g['lr'] = hps.train.learning_rate
+    for g in optim_g.param_groups:
+      g['lr'] = hps.train.learning_rate
 
   scheduler_g = torch.optim.lr_scheduler.ExponentialLR(optim_g, gamma=hps.train.lr_decay, last_epoch=epoch_str-2)
   scheduler_d = torch.optim.lr_scheduler.ExponentialLR(optim_d, gamma=hps.train.lr_decay, last_epoch=epoch_str-2)
