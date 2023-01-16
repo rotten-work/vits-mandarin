@@ -142,9 +142,10 @@ def run(rank, n_gpus, hps):
     global_step = 0
 
   if use_pretrained_weights:
+    print("Overwrite learning rates of optimizers")
     for g in optim_g.param_groups:
       g['lr'] = hps.train.learning_rate
-    for g in optim_g.param_groups:
+    for g in optim_d.param_groups:
       g['lr'] = hps.train.learning_rate
 
   scheduler_g = torch.optim.lr_scheduler.ExponentialLR(optim_g, gamma=hps.train.lr_decay, last_epoch=epoch_str-2)
@@ -239,6 +240,7 @@ def train_and_evaluate(rank, epoch, hps, nets, optims, schedulers, scaler, loade
     if rank==0:
       if global_step % hps.train.log_interval == 0:
         lr = optim_g.param_groups[0]['lr']
+        print(f"The current learning rate is: {lr}")
         losses = [loss_disc, loss_gen, loss_fm, loss_mel, loss_dur, loss_kl]
         logger.info('Train Epoch: {} [{:.0f}%]'.format(
           epoch,
