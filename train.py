@@ -178,6 +178,11 @@ def train_and_evaluate(rank, epoch, hps, nets, optims, schedulers, scaler, loade
 
   net_g.train()
   net_d.train()
+
+  # TODO: later should make it configurable
+  loss_gen_all_min = 35.0
+  g_min_checkpoint_index = 0
+
   for batch_idx, (x, x_lengths, spec, spec_lengths, y, y_lengths) in enumerate(train_loader):
     x, x_lengths = x.cuda(rank, non_blocking=True), x_lengths.cuda(rank, non_blocking=True)
     spec, spec_lengths = spec.cuda(rank, non_blocking=True), spec_lengths.cuda(rank, non_blocking=True)
@@ -236,6 +241,20 @@ def train_and_evaluate(rank, epoch, hps, nets, optims, schedulers, scaler, loade
     grad_norm_g = commons.clip_grad_value_(net_g.parameters(), None)
     scaler.step(optim_g)
     scaler.update()
+
+    if loss_gen_all <= loss_gen_all_min:
+      loss_gen_all_min = loss_gen_all
+      if g_min_checkpoint_index != 0:
+        g_min_checkpoint_old_path = os.path.join(hps.model_dir, f"G_min_{g_min_checkpoint_index}")
+        g_d_min_checkpoint_old_path = os.path.join(hps.model_dir, f"G_D_min{g_min_checkpoint_index}")
+        os.remove(f"g_min_{g_min_checkpoint_old_path}")
+        os.remove(f"g_d_min_{g_d_min_checkpoint_old_path}")
+      
+      g_min_checkpoint_index += 1
+      g_min_checkpoint_path = os.path.join(hps.model_dir, f"G_min_{g_min_checkpoint_index}.pth")
+      g_d_min_checkpoint_path = os.path.join(hps.model_dir, f"G_D_{g_min_checkpoint_index}.pth")
+      utils.save_checkpoint(net_g, optim_g, hps.train.learning_rate, epoch, g_min_checkpoint_path)
+      utils.save_checkpoint(net_d, optim_d, hps.train.learning_rate, epoch, g_d_min_checkpoint_path)
 
     if rank==0:
       if global_step % hps.train.log_interval == 0:
