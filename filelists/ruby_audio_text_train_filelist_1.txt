@@ -1,0 +1,281 @@
+ruby/ruby_bbtag_000003.wav|Haha... this is fun!
+ruby/ruby_bbtag_000004.wav|There! Yeah! Up! Here I go! Up! Over here! Yeah! Guh!
+ruby/ruby_bbtag_000008.wav|Wait! Hold on! No way!
+ruby/ruby_bbtag_000013.wav|Poison? Huh?
+ruby/ruby_bbtag_000014.wav|No! Oh, come on!
+ruby/ruby_bbtag_000015.wav|Wah! Pretty good! Up we go!
+ruby/ruby_bbtag_000016.wav|I'm not done! My turn now!
+ruby/ruby_bbtag_000017.wav|Oh! Too bad!
+ruby/ruby_bbtag_000018.wav|Saw that coming!
+ruby/ruby_bbtag_000019.wav|Oh! That hurt!
+ruby/ruby_bbtag_000020.wav|I'm... I'm okay!
+ruby/ruby_bbtag_000021.wav|Wow! That was awesome! Oh yeah!
+ruby/ruby_bbtag_000022.wav|I have no choice!
+ruby/ruby_bbtag_000023.wav|I'm not done yet!
+ruby/ruby_bbtag_000024.wav|I've got this! Awesome!
+ruby/ruby_bbtag_000025.wav|Piece of cake! Hello!
+ruby/ruby_bbtag_000026.wav|Yay! Here I go!
+ruby/ruby_bbtag_000027.wav|Weiss! The name's Ruby Rose!
+ruby/ruby_bbtag_000028.wav|Nice to meet you! Easy!
+ruby/ruby_bbtag_000029.wav|Shot! If it's a fight, I won't lose!
+ruby/ruby_bbtag_000030.wav|I win today! Haa! Ha!
+ruby/ruby_bbtag_000031.wav|You're gonna be my opponent?
+ruby/ruby_bbtag_000032.wav|Let's go and have some fun!
+ruby/ruby_bbtag_000033.wav|Guess I'm a pretty good fighter!
+ruby/ruby_bbtag_000034.wav|This girl's incredible!
+ruby/ruby_bbtag_000035.wav|Wanna see?
+ruby/ruby_bbtag_000036.wav|Mission complete! Ha!
+ruby/ruby_bbtag_000038.wav|Uh, hi! Are you okay?
+ruby/ruby_bbtag_000039.wav|Locked and loaded! Let's go!
+ruby/ruby_bbtag_000040.wav|Bye-bye, friend! Hah!
+ruby/ruby_bbtag_000041.wav|You're tough! Alright!
+ruby/ruby_bbtag_000042.wav|Leave this one to me!
+ruby/ruby_bbtag_000043.wav|Let's do that again! Oh, I'm so sorry!
+ruby/ruby_bbtag_000044.wav|Did I go a little too far?
+ruby/ruby_bbtag_000045.wav|Yahoo!
+ruby/ruby_bbtag_000046.wav|Total victory!
+ruby/ruby_bbtag_000047.wav|We are super cool!
+ruby/ruby_bbtag_000048.wav|Ah! I love Crescent Rose! She's amazing!
+ruby/ruby_bbtag_000049.wav|What's your weapon? Can I see? Can I see?
+ruby/ruby_bbtag_000050.wav|We're the most amazing partners, right?
+ruby/ruby_bbtag_000051.wav|Totally in sync!
+ruby/ruby_bbtag_000052.wav|I don't feel like we can lose!
+ruby/ruby_bbtag_000053.wav|Fight! As the leader of Team Ruby, I've never known the meaning of defeat!
+ruby/ruby_bbtag_000054.wav|Okay, out of character, but it was still pretty cool, huh?
+ruby/ruby_bbtag_000055.wav|Yeah! Hello!
+ruby/ruby_bbtag_000056.wav|How's everyone doing? Teyah!
+ruby/ruby_bbtag_000057.wav|Ha! Take that! Ta! Ay! Ha! Tay!
+ruby/ruby_bbtag_000059.wav|Yeah! There!
+ruby/ruby_bbtag_000064.wav|Hey! Whoopsie!
+ruby/ruby_bbtag_000065.wav|There! I see you!
+ruby/ruby_bbtag_000067.wav|How's this?
+ruby/ruby_bbtag_000068.wav|Watch your toes! You're done!
+ruby/ruby_bbtag_000069.wav|Take that! Over!
+ruby/ruby_bbtag_000072.wav|Hey, this'll do it! Gahhh!!!
+ruby/ruby_bbtag_000075.wav|Oh, please, hit!
+ruby/ruby_bbtag_000077.wav|Right behind you!
+ruby/ruby_bbtag_000078.wav|Nice job! Backing you up!
+ruby/ruby_bbtag_000079.wav|Get off me! Bye!
+ruby/ruby_bbtag_000080.wav|Enough! Back me up! Please!
+ruby/ruby_bbtag_000081.wav|Ha! Yahoo!
+ruby/ruby_bbtag_000082.wav|Switch! Ta-da!
+ruby/ruby_bbtag_000083.wav|Weiss! I could use some help!
+ruby/ruby_bbtag_000084.wav|Hang on a second! Not gonna happen!
+ruby/ruby_bbtag_000085.wav|How dare you!
+ruby/ruby_bbtag_000086.wav|I'll never forgive you!
+ruby/ruby_bbtag_000094.wav|Corkscrew slice!
+ruby/ruby_bbtag_000095.wav|E-yah! Gun blast!
+ruby/ruby_bbtag_000096.wav|Get lost! Give up! Back off!
+ruby/ruby_bbtag_000097.wav|Gun blast! Go! Bye!
+ruby/ruby_bbtag_000098.wav|Fire! Straight shot!
+ruby/ruby_bbtag_000099.wav|Gun blast! Don't blink!
+ruby/ruby_bbtag_000100.wav|I'm right here! Gun blast!
+ruby/ruby_bbtag_000101.wav|Give up yet! Gun blast! Forward!
+ruby/ruby_bbtag_000102.wav|Try to keep up!
+ruby/ruby_bbtag_000103.wav|I've got range! Gun blast!
+ruby/ruby_bbtag_000104.wav|Here I am! It's over! Yaa!!
+ruby/ruby_bbtag_000105.wav|Firing! Sy Pod!
+ruby/ruby_bbtag_000106.wav|Can you take this? Yah!!!
+ruby/ruby_bbtag_000107.wav|Fire!!
+ruby/ruby_bbtag_000108.wav|I'm not done! Too slow!
+ruby/ruby_bbtag_000109.wav|Slash and dash!
+ruby/ruby_bbtag_000111.wav|You're mine! Come here! Hey-yah!
+ruby/ruby_bbtag_000112.wav|Gotcha! How about this?
+ruby/ruby_bbtag_000113.wav|Rifle shot! Slash!
+ruby/ruby_bbtag_000114.wav|Don't you move! I'll shoot you down!
+ruby/ruby_bbtag_000115.wav|Slice! Buzzsaw!
+ruby/ruby_bbtag_000116.wav|Buzzsaw! Teeeyaa!!!
+ruby/ruby_bbtag_000117.wav|Eat this! Yaaaah!!!
+ruby/ruby_bbtag_000118.wav|For good measure!
+ruby/ruby_bbtag_000120.wav|Blast!!
+ruby/ruby_bbtag_000145.wav|Above! Up!
+ruby/ruby_bbtag_000147.wav|Come on! Take this seriously!
+ruby/ruby_bbtag_000148.wav|Down! Below!
+ruby/ruby_bbtag_000149.wav|You're pretty good!
+ruby/ruby_bbtag_000150.wav|Hello! Anyone there?
+ruby/ruby_bbtag_000151.wav|Are you pulling your punches?
+ruby/ruby_bbtag_000152.wav|Careful! There! Gah!
+ruby/ruby_bbtag_000153.wav|I'm sorry...everyone!
+ruby/ruby_bbtag_000154.wav|You're...kidding, right?
+ruby/ruby_bbtag_000155.wav|I guess that's a wrap!
+ruby/ruby_bbtag_000156.wav|Eh, shouldn't have panicked.
+ruby/ruby_bbtag_000157.wav|I can still...uh...fight...
+ruby/ruby_bbtag_000158.wav|Oh no! Wow!
+ruby/ruby_bbtag_000159.wav|Oh, your weapon looks so cool!
+ruby/ruby_bbtag_000160.wav|Oh, can I take a look at it? Can I? Please?
+ruby/ruby_bbtag_000161.wav|Gah, Come on!
+ruby/ruby_bbtag_000162.wav|Oh yeah! Here comes Team Rose!
+ruby/ruby_bbtag_000163.wav|I've heard of people like you!
+ruby/ruby_bbtag_000164.wav|Yeah! Samurai!
+ruby/ruby_bbtag_000165.wav|No way!
+ruby/ruby_bbtag_000166.wav|Look at all these weapons! Ah, so cool!
+ruby/ruby_bbtag_000167.wav|Wow, our opponents look pretty tough this time, don't they, Narukami?
+ruby/ruby_bbtag_000168.wav|Wow, huh, so you're a lancer!?
+ruby/ruby_bbtag_000169.wav|Lemme take a look at that spear!
+ruby/ruby_bbtag_000170.wav|Just wait until you see what I can do with it!
+ruby/ruby_bbtag_000171.wav|This is getting fun, Blake!
+ruby/ruby_bbtag_000172.wav|Whoa! What's up with those wings on your back?
+ruby/ruby_bbtag_000173.wav|Yeah! Let's do this!
+ruby/ruby_bbtag_000174.wav|Of course! I get to fight with you!
+ruby/ruby_bbtag_000175.wav|Well, actually, I...I'm more interested in your sword!
+ruby/ruby_bbtag_000176.wav|Oh, please, can I see your sword just for a little bit?
+ruby/ruby_bbtag_000177.wav|And my Crescent Rose will claim our victory!
+ruby/ruby_bbtag_000178.wav|Yes! Victory for Team Rose!
+ruby/ruby_bbtag_000179.wav|Same to you, Hyde.
+ruby/ruby_bbtag_000180.wav|You don't have to fight if you're scared of me showing you up!
+ruby/ruby_bbtag_000181.wav|Ah, that power!
+ruby/ruby_bbtag_000182.wav|I've just got to know more about that thing!
+ruby/ruby_bbtag_000183.wav|We win! Yay!
+ruby/ruby_bbtag_000184.wav|Oh, it's over?
+ruby/ruby_bbtag_000185.wav|It was just starting to get fun!
+ruby/ruby_bbtag_000186.wav|Ah, too bad.
+ruby/ruby_bbtag_000187.wav|Yahoo! That was so much fun!
+ruby/ruby_bbtag_000188.wav|Don't mess with Team Ruby!
+ruby/ruby_bbtag_000189.wav|Great! Can I see it now?
+ruby/ruby_bbtag_000190.wav|I'm pretty proud of my speed, huh.
+ruby/ruby_bbtag_000191.wav|Not bad, right?
+ruby/ruby_bbtag_000192.wav|Mm-hmm!
+ruby/ruby_bbtag_000193.wav|Come back any time and we'll beat you again!
+ruby/ruby_bbtag_000194.wav|Yay! You're so cool, Labrys!
+ruby/ruby_bbtag_000195.wav|Hey!
+ruby/ruby_bbtag_000196.wav|Why won't you listen to me?
+ruby/ruby_bbtag_000197.wav|Crescent Rose and I are one in the same!
+ruby/ruby_bbtag_000198.wav|A weapon is a part of you! You can't live without it!
+ruby/ruby_bbtag_000199.wav|Is that how you feel about your sword?
+ruby/ruby_bbtag_000200.wav|This spear is so interesting!
+ruby/ruby_bbtag_000201.wav|What's it made of? Carbon? Ceramic?
+ruby/ruby_bbtag_000202.wav|Huh. It looks like it can curve the trajectory of a bullet, but what's the force behind that?
+ruby/ruby_bbtag_000203.wav|Huh? Oh! Can it transform?
+ruby/ruby_bbtag_000204.wav|What else can it do?
+ruby/ruby_bbtag_000205.wav|Whoa!
+ruby/ruby_bbtag_000206.wav|Your weapon transforms too, right?
+ruby/ruby_bbtag_000207.wav|And it looks just like Crescent Rose!
+ruby/ruby_bbtag_000208.wav|Ah! Oh! Hey, what other tricks can it do?
+ruby/ruby_bbtag_000209.wav|How much does it weigh? What's it made out of? Can I hold it? Please? Please?
+ruby/ruby_bbtag_000210.wav|Oh, you're so cool, Narukami!
+ruby/ruby_bbtag_000211.wav|Oh, you really are a kingpin!
+ruby/ruby_bbtag_000212.wav|Hey, why don't you use an actual weapon?
+ruby/ruby_bbtag_000213.wav|I mean, you're pretty amazing the way you are, but still...
+ruby/ruby_bbtag_000214.wav|I haven't met another scythe user in a really long time...
+ruby/ruby_bbtag_000215.wav|Actually, uh, Uncle Crow might be the only one that I know.
+ruby/ruby_bbtag_000216.wav|Anyway, uh, good work, old man.
+ruby/ruby_bbtag_000217.wav|I've got to make sure I can keep up.
+ruby/ruby_bbtag_000218.wav|Now that the fight is over... Hee hee...
+ruby/ruby_bbtag_000219.wav|Uh, hey, Aegis, uh, can we trade weapons for a while?
+ruby/ruby_bbtag_000220.wav|Just to look at! that's all, really!
+ruby/ruby_bbtag_000221.wav|Heh! Nobody can stand against us!
+ruby/ruby_bbtag_000222.wav|Come on, Weiss! Let's go find our next match!
+ruby/ruby_bbtag_000223.wav|Hah! When my big sis and I team up, we're invincible!
+ruby/ruby_bbtag_000224.wav|Hey, think we should team up with Weiss and Blake next time?
+ruby/ruby_bbtag_000225.wav|When you're fighting, you don't have to worry about personal drama or anything, just the fight! Remember, simple is best!
+ruby/ruby_bbtag_000226.wav|Ah, that was fun.
+ruby/ruby_bbtag_000227.wav|I'm faster than anyone, and I can move all over the place.
+ruby/ruby_bbtag_000228.wav|That's my semblance!
+ruby/ruby_bbtag_000229.wav|What do you think? Pretty cool, huh?
+ruby/ruby_bbtag_000230.wav|So these are the secrets of the Far East.
+ruby/ruby_bbtag_000231.wav|Oh, I have to tell everyone as soon as I get back.
+ruby/ruby_bbtag_000232.wav|Samurai really do exist!
+ruby/ruby_bbtag_000233.wav|Nah, it's okay.
+ruby/ruby_bbtag_000234.wav|As a huntress, it's my duty to help those in need.
+ruby/ruby_bbtag_000235.wav|Besides, it's kind of exciting. Hehe.
+ruby/ruby_bbtag_000236.wav|Really? That's pretty amazing.
+ruby/ruby_bbtag_000237.wav|Aw, come on, Blake! You've gotta be happier than that! Enjoy the moment!
+ruby/ruby_bbtag_000238.wav|Hey, don't you have any weapons?
+ruby/ruby_bbtag_000239.wav|We can do anything with Crescent Rose!
+ruby/ruby_bbtag_000240.wav|Can...uh...can I try it on sometime?
+ruby/ruby_bbtag_000241.wav|Wowww! I love your samurai armor!
+ruby/ruby_bbtag_000242.wav|Oh, it's so cool, whoa!
+ruby/ruby_bbtag_000243.wav|That's even cooler!
+ruby/ruby_bbtag_000244.wav|Wooow!
+ruby/ruby_bbtag_000245.wav|Oh, that kimono!
+ruby/ruby_bbtag_000246.wav|Those fans!
+ruby/ruby_bbtag_000247.wav|Are you a geisha?
+ruby/ruby_bbtag_000248.wav|Oh, you're so awesome!
+ruby/ruby_bbtag_000249.wav|Alright! Justice prevails!
+ruby/ruby_bbtag_000250.wav|Justice will be swift!
+ruby/ruby_bbtag_000251.wav|It will be delicious!!!
+ruby/ruby_bbtag_000252.wav|We did it!
+ruby/ruby_bbtag_000253.wav|Justice planned!
+ruby/ruby_bbtag_000254.wav|I'll show you what Crescent Rose and I can do!
+ruby/ruby_bbtag_000255.wav|You get it now?
+ruby/ruby_bbtag_000256.wav|Good will always prevail!
+ruby/ruby_bbtag_000257.wav|Heart! Yumi! Ragna!
+ruby/ruby_bbtag_000258.wav|Blake! You! Weiss! Sis! Neo! Hide!
+ruby/ruby_bbtag_000259.wav|Hit them with love!
+ruby/ruby_bbtag_000260.wav|I need your strength!
+ruby/ruby_bbtag_000261.wav|You're Up!
+ruby/ruby_bbtag_000262.wav|Now!
+ruby/ruby_bbtag_000263.wav|Go, Blake!
+ruby/ruby_bbtag_000264.wav|Let's go, Weiss!
+ruby/ruby_bbtag_000265.wav|Neopolitan!
+ruby/ruby_bbtag_000266.wav|Go get them, Yang!
+ruby/ruby_bbtag_000267.wav|It's your turn!
+ruby/ruby_bbtag_000268.wav|Crescent Rose and I are one in the same!
+ruby/ruby_bbtag_000269.wav|A weapon is a part of you, you can't live without it!
+ruby/ruby_bbtag_000270.wav|Is that how you feel about your sword?
+ruby/ruby_bbtag_000271.wav|Now that the fight is over... Hee hee...
+ruby/ruby_bbtag_000272.wav|Uh, hey, Aegis, uh, can we trade weapons for a while!?
+ruby/ruby_bbtag_000273.wav|Just to look at! That's all, really!
+ruby/ruby_bbtag_000274.wav|This spear is so interesting!
+ruby/ruby_bbtag_000275.wav|What's it made of? Carbon? Ceramic?
+ruby/ruby_bbtag_000276.wav|Ah... It looks like it can curve the trajectory of a bullet, but what's the force behind that?
+ruby/ruby_bbtag_000277.wav|Ah... Oh, can it transform? What else can it do?
+ruby/ruby_bbtag_000278.wav|Oh, I'm so sorry!
+ruby/ruby_bbtag_000279.wav|Did I go a little too far?
+ruby/ruby_bbtag_000280.wav|Whoa!
+ruby/ruby_bbtag_000281.wav|Your weapon transforms too, right?
+ruby/ruby_bbtag_000282.wav|And, it looks just like Crescent Rose!
+ruby/ruby_bbtag_000283.wav|Ah! Oh, hey, what other tricks can it do!?
+ruby/ruby_bbtag_000284.wav|How much does it weigh?
+ruby/ruby_bbtag_000285.wav|What's it made out of!? Can I hold it? Please? Please?
+ruby/ruby_bbtag_000286.wav|Heh! Nobody can stand against us!
+ruby/ruby_bbtag_000287.wav|Come on, Weiss! Let's go find our next match!
+ruby/ruby_bbtag_000288.wav|Hey, why don't you use an actual weapon?
+ruby/ruby_bbtag_000289.wav|I mean, you're pretty amazing the way you are, but still...
+ruby/ruby_bbtag_000290.wav|Ah, You're so cool, Narukami!
+ruby/ruby_bbtag_000291.wav|Oh, you really are a kingpin!
+ruby/ruby_bbtag_000292.wav|Hah! When my big sis and I team up, we're invincible!
+ruby/ruby_bbtag_000293.wav|Hey, think we should team up with Weiss and Blake next time?
+ruby/ruby_bbtag_000294.wav|I haven't met another scythe user in a really long time.
+ruby/ruby_bbtag_000295.wav|Actually, uh, Uncle Qrow might be the only one that I know.
+ruby/ruby_bbtag_000296.wav|Anyway, uh, good work, old man.
+ruby/ruby_bbtag_000297.wav|I've gotta make sure I can keep up.
+ruby/ruby_bbtag_000298.wav|When you're fighting, you don't have to worry about personal drama or anything, just the fight!
+ruby/ruby_bbtag_000299.wav|Remember, simple is best!
+ruby/ruby_bbtag_000300.wav|Ahh, that was fun.
+ruby/ruby_bbtag_000301.wav|Aw, come on, Blake! You've gotta be happier than that! Enjoy the moment!
+ruby/ruby_bbtag_000302.wav|I'm faster than anyone, and I can move all over the place.
+ruby/ruby_bbtag_000303.wav|That's my Semblance.
+ruby/ruby_bbtag_000304.wav|What do you think? Pretty cool, huh?
+ruby/ruby_bbtag_000305.wav|Naw, it's okay!
+ruby/ruby_bbtag_000306.wav|As a Huntress, it's my duty to help those in need!
+ruby/ruby_bbtag_000307.wav|Besides, it's, kind of exiting! Hehe.
+ruby/ruby_bbtag_000308.wav|Yahoo! Total victory! We are SUPER cool!
+ruby/ruby_bbtag_000309.wav|Wow!
+ruby/ruby_bbtag_000310.wav|So these are the secrets of the far east.
+ruby/ruby_bbtag_000311.wav|Oh, I have to tell everyone as soon as I get back!
+ruby/ruby_bbtag_000312.wav|Samurai really DO exist!
+ruby/ruby_bbtag_000313.wav|Ah, I love Crescent Rose, she's amazing!
+ruby/ruby_bbtag_000314.wav|What's your weapon? Can I see? Can I see?
+ruby/ruby_bbtag_000315.wav|We're the most amazing partners, right?
+ruby/ruby_bbtag_000316.wav|Totally in sync.
+ruby/ruby_bbtag_000317.wav|I don't feel like we can lose!
+ruby/ruby_bbtag_000318.wav|As the leader of Team RWBY, I've never known the meaning of defeat.
+ruby/ruby_bbtag_000319.wav|Heh... Okay, out of character, but it was still pretty cool, huh?
+ruby/ruby_bbtag_000320.wav|Crescent Rose and I are one in the same!
+ruby/ruby_bbtag_000321.wav|And given that a rose is a symbol of love...
+ruby/ruby_bbtag_000322.wav|Does this mean I fight with the power of love, too?
+ruby/ruby_bbtag_000323.wav|That armor's really tough, but the design's so elaborate!
+ruby/ruby_bbtag_000324.wav|Oh, the tail and the hair look real!
+ruby/ruby_bbtag_000325.wav|Oh, it's just so cool!
+ruby/ruby_bbtag_000326.wav|Can I try it on, please?
+ruby/ruby_bbtag_000327.wav|I can't believe I actually got to fight a real ninja!
+ruby/ruby_bbtag_000328.wav|Hey, can you show off some of your ninja skills?
+ruby/ruby_bbtag_000329.wav|Can we fight?! Please, can we?!
+ruby/ruby_bbtag_000330.wav|Just remember this.
+ruby/ruby_bbtag_000331.wav|No evil, no enemy will defeat me.
+ruby/ruby_bbtag_000332.wav|We WILL stop it, and I WILL stop you!
+ruby/ruby_bbtag_000333.wav|BET ON THAT!
+ruby/ruby_bbtag_000334.wav|There's a lot of bad in this world, but I'm here to do some good!
+ruby/ruby_bbtag_000335.wav|As long as I've got Crescent Rose, noting can stop me!
+ruby/ruby_bbtag_000336.wav|Justice will be done!
