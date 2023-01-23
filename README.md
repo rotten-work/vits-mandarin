@@ -90,7 +90,7 @@ conda install pytorch torchvision torchaudio pytorch-cuda=11.7 -c pytorch -c nvi
   <tr>
     <td>标贝中文标准女声音库（处理后）16-bit PCM WAV，22050 Hz</td>
     <td>
-      链接：https://pan.baidu.com/s/1cvW72ECVn1dkwTaEkOEbow <br>
+      链接：https://pan.baidu.com/s/1oihti9-aoJ447l54kdjChQ <br>
       提取码：vits 
     </td>
   </tr>
