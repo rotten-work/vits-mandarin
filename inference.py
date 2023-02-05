@@ -1,6 +1,8 @@
 import os
 import time
 
+import random
+
 import numpy as np
 import torch
 from scipy.io.wavfile import write
@@ -56,8 +58,12 @@ def do_inference(generator, hparams, symbol_to_id, text, device):
     with torch.no_grad():
         x_tst = stn_tst.to(device).unsqueeze(0)
         x_tst_lengths = torch.LongTensor([stn_tst.size(0)]).to(device)
-        noise_scale = 0.667
-        noise_scale_w = 0.8
+        # noise_scale = 0.667
+        # noise_scale_w = 0.8
+        noise_scale = random.uniform(0, 1)
+        noise_scale_w = random.uniform(0, 1)
+        print(f"The noise ncale is {noise_scale}")
+        print(f"The noise scale_w is {noise_scale_w}")
         audio = generator.infer(x_tst, x_tst_lengths, noise_scale, noise_scale_w, length_scale=1)[0][0,0].data.cpu().float().numpy()
     
     return audio
