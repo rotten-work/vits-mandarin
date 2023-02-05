@@ -19,6 +19,8 @@ def create_symbols_manager(language):
     symbols_manager = SymbolsManager(symbols_ce)
   elif language == 'en':
     symbols_manager = SymbolsManager(symbols_en_1)
+  elif language == 'default':
+    symbols_manager = SymbolsManager(symbols_en)
   else:
     symbols_manager = SymbolsManager(symbols_en)
 
