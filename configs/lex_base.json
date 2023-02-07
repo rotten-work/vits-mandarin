@@ -55,7 +55,8 @@
     "num_workers": 2
   },
   "checkpoints": {
-    "pretrained_model_name": "bb_v100",
+    "g_pretrained_path": "pretrained_weights/G_bb_v100_820000.pth",
+    "d_pretrained_path": "pretrained_weights/D_bb_v100_820000.pth",
     "auto_delete_old_checkpoints": true,
     "replace_old_checkpoints_mode": false,
     "num_checkpoints_to_keep": 4

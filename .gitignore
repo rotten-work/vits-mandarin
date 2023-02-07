@@ -11,3 +11,4 @@ build
 monotonic_align/monotonic_align
 *.pyd
 /pretrained_models/
+/pretrained_weights/

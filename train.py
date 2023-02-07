@@ -119,24 +119,26 @@ def run(rank, n_gpus, hps):
   use_pretrained_weights = False
   overwrite_lr = False
   try:
-    # Pretrained_model_name means the pretrained weights, bad naming
-    utils.load_checkpoint(utils.latest_checkpoint_path(
-      "pretrained_models", 
-      f"G_{hps.checkpoints.pretrained_model_name}*.pth"
-      ), 
-      net_g, 
+    utils.load_checkpoint(
+      hps.checkpoints.g_pretrained_path,
+      net_g,
       optim_g
     )
-    utils.load_checkpoint(utils.latest_checkpoint_path(
-      "pretrained_models", f"D_{hps.checkpoints.pretrained_model_name}*.pth"
-      ), 
-      net_d, 
+    
+    print(f"Pretrained weights {hps.checkpoints.g_pretrained_path} are loaded")
+
+    utils.load_checkpoint(
+      hps.checkpoints.d_pretrained_path,
+      net_d,
       optim_d
     )
+
+    print(f"Pretrained weights {hps.checkpoints.d_pretrained_path} are loaded")
+
     use_pretrained_weights = True
     overwrite_lr = True
   except:
-    print("No pretrained weights to load")
+    print("No pretrained weights are loaded")
     use_pretrained_weights = False
     overwrite_lr = False
 
