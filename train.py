@@ -179,6 +179,11 @@ def run(rank, n_gpus, hps):
     scheduler_g.step()
     scheduler_d.step()
 
+ENABLE_LOSS_MIN_CHECKPOINTS = False
+
+if ENABLE_LOSS_MIN_CHECKPOINTS:
+  loss_gen_all_min = 35.0
+  g_min_checkpoint_index = 0
 
 def train_and_evaluate(rank, epoch, hps, nets, optims, schedulers, scaler, loaders, logger, writers):
   net_g, net_d = nets
@@ -195,10 +200,9 @@ def train_and_evaluate(rank, epoch, hps, nets, optims, schedulers, scaler, loade
   net_g.train()
   net_d.train()
 
-  # TODO: later should make it configurable
-  if rank == 0:
-    loss_gen_all_min = 35.0
-    g_min_checkpoint_index = 0
+  if ENABLE_LOSS_MIN_CHECKPOINTS:
+    global loss_gen_all_min
+    global g_min_checkpoint_index
 
   for batch_idx, (x, x_lengths, spec, spec_lengths, y, y_lengths) in enumerate(train_loader):
     x, x_lengths = x.cuda(rank, non_blocking=True), x_lengths.cuda(rank, non_blocking=True)
@@ -259,28 +263,29 @@ def train_and_evaluate(rank, epoch, hps, nets, optims, schedulers, scaler, loade
     scaler.step(optim_g)
     scaler.update()
 
-    # if rank==0 and global_step % hps.train.log_interval == 0:
-    if rank==0:
-      if loss_gen_all < loss_gen_all_min:
-        loss_gen_all_min = loss_gen_all
-        loss_min_checkpoints_dir = os.path.join(hps.model_dir, "loss_min_checkpoints")
-        if not os.path.exists(loss_min_checkpoints_dir):
-          os.makedirs(loss_min_checkpoints_dir)
+    if ENABLE_LOSS_MIN_CHECKPOINTS:
+      # if rank==0 and global_step % hps.train.log_interval == 0:
+      if rank==0:
+        if loss_gen_all < loss_gen_all_min:
+          loss_gen_all_min = loss_gen_all
+          loss_min_checkpoints_dir = os.path.join(hps.model_dir, "loss_min_checkpoints")
+          if not os.path.exists(loss_min_checkpoints_dir):
+            os.makedirs(loss_min_checkpoints_dir)
 
-        if g_min_checkpoint_index > 0:
-          g_min_checkpoint_old_path = os.path.join(loss_min_checkpoints_dir, f"G_min_{g_min_checkpoint_index}.pth")
-          g_d_min_checkpoint_old_path = os.path.join(loss_min_checkpoints_dir, f"G_D_min_{g_min_checkpoint_index}.pth")
-          # https://stackoverflow.com/questions/53028607/how-to-remove-the-file-from-trash-in-drive-in-colab
-          open(g_min_checkpoint_old_path, 'w').close() # Overwrite and make the file blank
-          open(g_d_min_checkpoint_old_path, 'w').close()
-          os.remove(f"{g_min_checkpoint_old_path}")
-          os.remove(f"{g_d_min_checkpoint_old_path}")
-      
-        g_min_checkpoint_index += 1
-        g_min_checkpoint_path = os.path.join(loss_min_checkpoints_dir, f"G_min_{g_min_checkpoint_index}.pth")
-        g_d_min_checkpoint_path = os.path.join(loss_min_checkpoints_dir, f"G_D_min_{g_min_checkpoint_index}.pth")
-        utils.save_checkpoint(net_g, optim_g, hps.train.learning_rate, epoch, g_min_checkpoint_path)
-        utils.save_checkpoint(net_d, optim_d, hps.train.learning_rate, epoch, g_d_min_checkpoint_path)
+          if g_min_checkpoint_index > 0:
+            g_min_checkpoint_old_path = os.path.join(loss_min_checkpoints_dir, f"G_min_{g_min_checkpoint_index}.pth")
+            g_d_min_checkpoint_old_path = os.path.join(loss_min_checkpoints_dir, f"G_D_min_{g_min_checkpoint_index}.pth")
+            # https://stackoverflow.com/questions/53028607/how-to-remove-the-file-from-trash-in-drive-in-colab
+            open(g_min_checkpoint_old_path, 'w').close() # Overwrite and make the file blank
+            open(g_d_min_checkpoint_old_path, 'w').close()
+            os.remove(f"{g_min_checkpoint_old_path}")
+            os.remove(f"{g_d_min_checkpoint_old_path}")
+        
+          g_min_checkpoint_index += 1
+          g_min_checkpoint_path = os.path.join(loss_min_checkpoints_dir, f"G_min_{g_min_checkpoint_index}.pth")
+          g_d_min_checkpoint_path = os.path.join(loss_min_checkpoints_dir, f"G_D_min_{g_min_checkpoint_index}.pth")
+          utils.save_checkpoint(net_g, optim_g, hps.train.learning_rate, epoch, g_min_checkpoint_path)
+          utils.save_checkpoint(net_d, optim_d, hps.train.learning_rate, epoch, g_d_min_checkpoint_path)
 
     if rank==0:
       if global_step % hps.train.log_interval == 0:
