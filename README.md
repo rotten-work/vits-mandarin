@@ -124,8 +124,11 @@ conda install pytorch torchvision torchaudio pytorch-cuda=11.7 -c pytorch -c nvi
 </table>
 注：各预训练权重文件包括生成网络权重（G开头），鉴别器网络权重（D开头），还有训练时使用的cleaners与symbols（方便与其他VITS仓库的代码或工具兼容）<br><br>
 
-## 参考与鸣谢：
-### 大佬们的VITS语音合成GitHub仓库：
+## 效果展示
+### [Gallery](gallery/Gallery.md) <br><br>
+
+## 参考与鸣谢
+### 大佬们的VITS语音合成GitHub仓库
 *   https://github.com/jaywalnut310/vits
 *   https://github.com/CjangCjengh/vits
 *   https://github.com/AlexandaJerry/vits-mandarin-biaobei
@@ -133,7 +136,7 @@ conda install pytorch torchvision torchaudio pytorch-cuda=11.7 -c pytorch -c nvi
 *   https://github.com/w4123/vits
 *   https://github.com/xiaoyou-bilibili/tts_vits
 *   https://github.com/wind4000/vits.git
-### 参考B站链接：
+### 参考B站链接
 *   【CV失业计划】基于VITS神经网络模型的近乎完美派蒙中文语音合成：\
   https://www.bilibili.com/video/BV1rB4y157fd
 *   【原神】派蒙Vtuber出道计划——基于AI深度学习VITS和VSeeFace的派蒙语音合成/套皮：\
