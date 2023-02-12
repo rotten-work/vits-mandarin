@@ -66,7 +66,8 @@ See [inference.ipynb](inference.ipynb)
 - Windows平台所需特殊环境配置和操作说明
 - 支持中文和英文
 - 本项目添加了一个简易的面向对象风格的[推断脚本](inference.py)。
-- [这里](https://colab.research.google.com/drive/1uFUnZDbHMqKWBUQDZKih56Vkj2ixTN9B#scrollTo=p16LO6nXVDzP)是一个简单的Colab notebook，展示了如何使用该项目进行训练和推断的步骤。
+- [这里](https://colab.research.google.com/drive/1uFUnZDbHMqKWBUQDZKih56Vkj2ixTN9B)是一个简单的Colab notebook，展示了如何使用该项目进行训练和推断的步骤。
+- [这里](https://colab.research.google.com/drive/1VWBOp3PDGNO77_xOm20yRtc4CSmsbqtb)是一个简单的Colab notebook，展示了如何使用预训练权重进行迁移训练（精调）
 - 预处理好的几套音频数据集以方便大家学习实验
 
 
