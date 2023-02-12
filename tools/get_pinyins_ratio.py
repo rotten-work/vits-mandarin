@@ -1,7 +1,7 @@
 from pypinyin import Style, pinyin
 
 all_pinyins_file = "bb_all_pinyins.txt"
-filename = "lex_orig_audio_text_train_filelist.txt"
+filename = "lex_audio_text_train_filelist.txt"
 
 all_pinyin_set = set()
 with open(all_pinyins_file, encoding='utf-8') as f:
@@ -19,6 +19,7 @@ for line in text_lines:
     for py in pinyin(line, style=Style.TONE3):
         pinyin_set.add(py[0])
 
+# https://realpython.com/python-sets/
 valid_pinyin_set = all_pinyin_set & pinyin_set
 print(f"Valid pinyins the file include are: {sorted(valid_pinyin_set)}")
 print(f"Pinyins that the file doesn't include are: {sorted(all_pinyin_set - valid_pinyin_set)}")
