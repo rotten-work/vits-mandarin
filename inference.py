@@ -20,7 +20,7 @@ class AudioGenerator():
         self.hparams = hparams
         self._device = device
 
-        if 'language' in hps.data:
+        if 'language' in hparams.data:
             symbols_manager = create_symbols_manager(hparams.data.language)
         else:
             symbols_manager = create_symbols_manager('default')
