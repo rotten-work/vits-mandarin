@@ -148,5 +148,15 @@ https://www.bilibili.com/video/BV1Fe4y1r737
 https://www.bilibili.com/read/cv18357171
 
 
-## 恰饭
-生活不易，喵喵叹气。。。如果您喜欢该项目，请对该项目star一下表示支持吧~ <br> <img src="resources/恰饭512.png">
+## Sieroy再补充
+### 更新
+- 实际运行时遇到了librosa0.10的一些新功能（恨），不得不改一些东西以作适配。
+- 为菲米莉丝小天使准备了一下配置文件和filelists，并通过游戏内录音+Au手动分割+格式化得到了一些语音数据，以作微调。
+
+### 其他说明
+- 这个repo是从[rotten-work/vits-mandarin-windows](https://github.com/rotten-work/vits-mandarin-windows) Fork出来的，感谢这位 喵喵抽风是大摆锤 大佬的预训练模型和项目。欢迎各位去TA的repo瞻仰+投喂。我这里就不再放TA的投喂码了23333。
+- 如果你喜欢菲米莉丝的日语版本，推荐尝试这个repo:[Plachtaa/VITS-fast-fine-tuning](https://github.com/Plachtaa/VITS-fast-fine-tuning)，这位大佬使用了比较二次元的数据集，微调出来的模型在日语发音方面还是很不错的。
+- 为避免版权纠纷等，我不会放出模型和音频数据，但你可以使用 喵喵抽风是大摆锤 大佬的项目，通过自己录制菲米莉丝的声音+训练，来获得模型。
+
+最后，菲门🙏
+![](resources/femirins.png)
