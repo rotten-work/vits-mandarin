@@ -5,14 +5,12 @@ femirins/000004.wav|住，住手，禁止暴力。
 femirins/000005.wav|菲米莉丝大危机。
 femirins/000006.wav|武器change
 femirins/000007.wav|system order
-femirins/000008.wav|投放干扰数据。
 femirins/000009.wav|菲米莉丝渐入佳境。
 femirins/000010.wav|一切尽在掌握中。
 femirins/000011.wav|菲米莉丝，请求技术维修支援。
 femirins/000012.wav|全频段连接，overclock，这就是全人类的力量。
 femirins/000013.wav|哼哼，哼哼哼。
 femirins/000015.wav|就像RPG游戏一样冒险。
-femirins/000016.wav|菲米莉丝，出发。
 femirins/000017.wav|Avalon空间构建成功。
 femirins/000018.wav|money money
 femirins/000019.wav|弹药打空了。
@@ -43,3 +41,9 @@ femirins/000047.wav|菲米莉丝就绪，可是，矿呢？
 femirins/000048.wav|菲米莉丝制作的新游戏，不想一起玩了吗？
 femirins/000049.wav|菲米莉丝对你自动生成了一段特殊的情绪代码，指令生成的是，希望能一直和你在一起。
 femirins/000051.wav|欸？苦的和黑咖啡一样？不应该是浓度越高，越甜蜜吗？
+femirins/000014.wav|HP差点掉光。
+femirins/000022.wav|Game clear
+femirins/000052.wav|先定一个小目标，比如说，high tec high life
+femirins/000053.wav|呃？事故报告，错误日志，紧急维护？
+femirins/000054.wav|还是不行？哼，这么没用的道具才不是菲米莉丝开发的呢。
+femirins/000055.wav|刚才真危险。

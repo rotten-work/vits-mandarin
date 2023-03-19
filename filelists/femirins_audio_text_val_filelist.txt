@@ -1,6 +1,6 @@
-femirins/000014.wav|HP差点掉光。
 femirins/000040.wav|菲米莉丝一直觉得人类很有趣，嗯，特别是你。
 femirins/000034.wav|眼光真不错。
 femirins/000039.wav|锵锵，超级AI辅助菲米莉丝登场，请问需要什么帮助吗？
-femirins/000022.wav|Game clear
 femirins/000050.wav|哈，口味怎么样，菲米莉丝特别订制的，百分之九十九可可含量的巧克力。
+femirins/000016.wav|菲米莉丝，出发。
+femirins/000008.wav|投放干扰数据。
