@@ -4,3 +4,11 @@ femirins/000039.wav|锵锵，超级AI辅助菲米莉丝登场，请问需要什�
 femirins/000050.wav|哈，口味怎么样，菲米莉丝特别订制的，百分之九十九可可含量的巧克力。
 femirins/000016.wav|菲米莉丝，出发。
 femirins/000008.wav|投放干扰数据。
+femirins/000027.wav|进入防御部署模式。
+femirins/000002.wav|周年日快乐，与你相处的每一天，都已存档成数据，这是菲米莉丝最宝贵的回忆记录。
+femirins/000023.wav|下一波攻势即将到达。
+femirins/000015.wav|就像RPG游戏一样冒险。
+femirins/100003.wav|菲米莉丝TTS模型训练成功，听起来感觉真不错。
+femirins/100002.wav|这么小的洞口，怎么想都进不去嘛。
+femirins/000009.wav|菲米莉丝渐入佳境。
+femirins/000035.wav|服装代码载入成功。
